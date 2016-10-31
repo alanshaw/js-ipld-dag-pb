@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
   "scripts": {
-    "postinstall": "aegir-build",
+    "postinstall": "aegir-build; true",
     "lint": "aegir-lint",
     "build": "aegir-build",
     "test": "aegir-test",
